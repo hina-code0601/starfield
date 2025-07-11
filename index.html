@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars fan page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <canvas id="starfield"></canvas>
+
+    <header>
+        <img src="images/logo.png" alt="Star Wars Logo" class="logo">
+        <h1>Star Wars Fan Page</h1>
+        <p class="subtitle">May the Fourth be with you</p>
+    </header>
+
+    <section class="episodes">
+        <h2>Episodes</h2>
+
+        <div class="episode" data-aos="fade-right">
+            <img src="images/ep1.jpg" alt="Episode 1">
+            <div class="text">
+                <h3>Episode I: The Phantom Menace</h3>
+                <p>公開日:1999年</p>
+                <p>銀河の始まりを描く物語</p>
+                <button class="lightsaber">詳細を見る</button>
+            </div>
+        </div>
+
+        <div class="episode reverse" data-aos="fade-left">
+            <img src="images/ep2.jpg" alt="Episode 2">
+            <div class="text">
+                <h3>Episode II: Attack of the Clones</h3>
+                <p>公開日:2002年</p>
+                <p>銀河の危機が迫る中、ジェダイたちが立ち上がる</p>
+                <button class="lightsaber">詳細を見る</button>
+            </div>
+        </div>
+
+        <div class="episode" data-aos="fade-right">
+            <img src="images/ep3.jpg" alt="Episode 3">
+            <div class="text">
+                <h3>Episode III: Revenge of the Sith</h3>
+                <p>公開日:2005年</p>
+                <p>銀河の崩壊、ダースベイダー誕生の瞬間</p>
+                <button class="lightsaber">詳細を見る</button>
+            </div>
+        </div>
+    
+        <div class="episode reverse" data-aos="fade-left">
+            <img src="images/ep4.jpg" alt="Episode 4">
+            <div class="text">
+                <h3>Episode IV: A New Hope</h3>
+                <p>公開日:1977年</p>
+                <p>反乱軍の戦いと若きスカイウォーカーの冒険</p>
+                <button class="lightsaber">詳細を見る</button>
+            </div>
+        </div>
+    
+        <div class="episode" data-aos="fade-right">
+            <img src="images/ep5.jpg" alt="Episode 5">
+            <div class="text">
+                <h3>Episode V: The Empire Strikes Back</h3>
+                <p>公開日:1980年</p>
+                <p>帝国の反撃と師匠・父との出会い</p>
+                <button class="lightsaber">詳細を見る</button>
+            </div>
+        </div>
+
+        <div class="episode reverse" data-aos="fade-left">
+            <img src="images/ep6.jpg" alt="Episode 6">
+            <div class="text">
+                <h3>Episode VI: Return of the Jedi</h3>
+                <p>公開日:1983年</p>
+                <p>最終決戦、銀河の運命を賭けた戦い</p>
+                <button class="lightsaber">詳細を見る</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="characters">
+        <h2>Characters</h2>
+        <div class="character" data-aos="fade-up">
+            <img src="images/luke.jpg" alt="Luke Skywalker">
+            <h3>Luke Skywalker</h3>
+            <p>銀河の英雄、最強のジェダイ</p>
+        </div>
+        <div class="character" data-aos="fade-up">
+            <img src="images/leia.jpg" alt="Leia Organa">
+            <h3>Leia Organa</h3>
+            <p>銀河の希望、反乱軍の希望</p>
+        </div>
+        <div class="character" data-aos="fade-up">
+            <img src="images/vader.jpg" alt="Darth Vader">
+            <h3>Darth Vader</h3>
+            <p>銀河の恐怖、ダークサイドの象徴</p>
+        </div>
+        <div class="character" data-aos="fade-up">
+            <img src="images/han.jpg" alt="Han Solo">
+            <h3>Han Solo</h3>
+            <p>銀河の自由人、ミレニアム・ファルコンの船長</p>
+        </div>
+        <div class="character" data-aos="fade-up">
+            <img src="images/yoda.jpg" alt="Yoda">
+            <h3>Yoda</h3>
+            <p>銀河の賢者、最も強力なジェダイ</p>
+        </div>
+    </section>
+
+    <footer>
+       <p>© 2025 Star Wars Fan Site. All Rights Reserved.</p>
+    </footer> 
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
